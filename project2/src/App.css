@@ -35,3 +35,7 @@ ul li {
   margin: 10px;
   width: 200px;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+}
