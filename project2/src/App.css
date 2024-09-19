@@ -2,12 +2,10 @@
   display: flex;
   justify-content: space-between;
   padding: 0 8px;
-  margin: 20px;
 }
 nav ul {
   list-style: none;
   display: flex;
-  margin: 20px;
 }
 ul li {
   margin: 10px;
