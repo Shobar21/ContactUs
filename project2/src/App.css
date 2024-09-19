@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  margin: 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 20px;
+}
+ul li {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.logo {
+  font-weight: 100;
+}
+.containt {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.containt h1 {
+  font-size: 48px;
+  font-weight: 800;
+  max-width: 80%;
+}
+.containt p {
+  font-weight: 500;
+}
+.contact-button {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  width: 200px;
+}
