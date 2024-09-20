@@ -1,23 +1,28 @@
 import React from 'react'
-import { FaPhoneAlt, FaComments } from 'react-icons/fa'
+import { MdMessage } from 'react-icons/md'
+import { FaPhoneAlt } from 'react-icons/fa'
+import { HiEmail } from 'react-icons/hi'
 import img from '../images/image.png'
+import Button from './Button/Button'
 
 function Form() {
   return (
     <div className='container'>
       <div className='Form'>
-        <button className='contact-button'>
-          <FaComments size={24} /> {/* Chat icon */}
-          VIA SUPPORT CHAT
-        </button>
-        <button className='contact-button '>
-          <FaPhoneAlt size={24} /> {/* Phone icon */}
-          VIA CALL
-        </button>
+        <div className='top-btn'>
+          <Button
+            text='VIA SUPPORT CHAT'
+            icon={<MdMessage fontSize='24px' />}
+          />
+          <Button text='VIA CALL' icon={<FaPhoneAlt fontSize='24px' />} />
+        </div>
+        <Button
+          isOutline={true}
+          text='VIA EMAIL FORM'
+          icon={<HiEmail fontSize='24px' />}
+        />
       </div>
-      <div className='form-img'>
-        <img src={img} alt='' />
-      </div>
+      <div className='form-img'>{/* <img src={img} alt='' /> */}</div>
     </div>
   )
 }
