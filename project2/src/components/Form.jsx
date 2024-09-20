@@ -27,6 +27,14 @@ function Form() {
             <label htmlFor='name'>Name</label>
             <input type='text' name='name' />
           </div>
+          <div className='form_container'>
+            <label htmlFor='email'>Email</label>
+            <input type='email' name='email' />
+          </div>
+          <div className='form_container'>
+            <label htmlFor='text'>Text</label>
+            <input type='text' name='text' />
+          </div>
         </form>
       </div>
       <div className='form-img'>{/* <img src={img} alt='' /> */}</div>
