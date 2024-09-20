@@ -21,6 +21,13 @@ function Form() {
           text='VIA EMAIL FORM'
           icon={<HiEmail fontSize='24px' />}
         />
+
+        <form>
+          <div className='form_container'>
+            <label htmlFor='name'>Name</label>
+            <input type='text' name='name' />
+          </div>
+        </form>
       </div>
       <div className='form-img'>{/* <img src={img} alt='' /> */}</div>
     </div>
