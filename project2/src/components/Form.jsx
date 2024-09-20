@@ -33,11 +33,16 @@ function Form() {
           </div>
           <div className='form_container'>
             <label htmlFor='text'>Text</label>
-            <input type='text' name='text' />
+            <textarea type='text' name='text' rows='8' />
+          </div>
+          <div style={{ display: 'flex', justifyContent: 'end' }}>
+            <Button text='Submit Button' />
           </div>
         </form>
       </div>
-      <div className='form-img'>{/* <img src={img} alt='' /> */}</div>
+      <div className='form-img'>
+        <img src={img} alt='' />
+      </div>
     </div>
   )
 }

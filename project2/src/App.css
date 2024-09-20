@@ -37,6 +37,8 @@ nav ul {
   display: flex;
   max-width: 1080px;
   margin: 0 auto;
+  margin-top: 40px;
+  align-items: end;
 }
 .top-btn {
   display: flex;
@@ -46,6 +48,12 @@ nav ul {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+.Form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
 }
 .form_container {
   display: flex;
@@ -64,4 +72,11 @@ nav ul {
   left: 10px;
   background-color: white;
   padding: 0 10px;
+}
+
+.main-container {
+  display: flex;
+  height: calc(100vh -72px);
+  justify-content: end;
+  flex-direction: column;
 }
