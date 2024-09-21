@@ -1,7 +1,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 0 8px;
+  padding: 0 15px;
   height: 72px;
   align-items: center;
 }
@@ -35,6 +35,7 @@ nav ul {
 
 .container {
   display: flex;
+  justify-content: space-between;
   max-width: 1080px;
   margin: 0 auto;
   margin-top: 40px;
@@ -66,7 +67,7 @@ nav ul {
   padding: 0 8px;
 }
 .form_container label {
-  font-size: 14px;
+  font-size: 18px;
   position: absolute;
   top: -12px;
   left: 10px;

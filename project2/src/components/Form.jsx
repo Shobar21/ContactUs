@@ -1,11 +1,16 @@
 import React from 'react'
 import { MdMessage } from 'react-icons/md'
 import { FaPhoneAlt } from 'react-icons/fa'
-import { HiEmail } from 'react-icons/hi'
+import { HiMail } from 'react-icons/hi'
 import img from '../images/image.png'
 import Button from './Button/Button'
 
 function Form() {
+  const onSubmit = (e) => {
+    e.preventDefault()
+    console.log(e)
+  }
+
   return (
     <div className='container'>
       <div className='Form'>
@@ -19,10 +24,10 @@ function Form() {
         <Button
           isOutline={true}
           text='VIA EMAIL FORM'
-          icon={<HiEmail fontSize='24px' />}
+          icon={<HiMail fontSize='24px' />}
         />
 
-        <form>
+        <form onSubmit={onSubmit}>
           <div className='form_container'>
             <label htmlFor='name'>Name</label>
             <input type='text' name='name' />
